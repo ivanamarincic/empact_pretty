@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>EmpactHome</title>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+<style type="text/css">
+</style>
+<link href="stylesheet.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+html { height: auto; margin-bottom: 1px; }
+body {
+	background-repeat: no-repeat;
+	}
+#background {
+	position: relative;
+	left: 0px;
+	right: 0px;
+	top: -50px;
+	width: 100%;
+	height: 200%;
+	min-height: 100%;
+	padding-bottom: 4em;
+	z-index: 1;
+	background-color: rgba(255,255,255,0);
+	padding-top: 0px;
+	background-attachment: scroll;
+	overflow: scroll;
+}
+
+
+#header {
+	position: relative;
+	left: 0px;
+	top: 5px;
+	width: 100%;
+	height: 86%;
+	bottom: 3%;
+	z-index: 3;
+	background-color: rgba(0,0,0,0);
+	padding-top: 1%;
+	padding-left: 5%;
+}
+
+#superheader {
+	position: absolute;
+	left: 0px;
+	top: 0;
+	width: 100%;
+	height: 20%;
+	z-index: 2;
+}
+
+#header_upper_rim {
+	position: inherit;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 5px;
+	z-index: 4;
+	border: thin solid rgba(100,100,100,0.5);
+}
+
+#header_lower_rim {
+	position: inherit;
+	left: 0px;
+	width: 100%;
+	height: 5px;
+	/*margin-bottom: -5px;*/
+	z-index: 5;
+	top: 100%;
+	/*bottom: -10px;*/
+	border: thin solid rgba(100,100,100,0.5);
+}
+
+#globe_section {
+	position: absolute;
+	left: 0px;
+	top: 30%;
+	width: 100%;
+	height: 50%;
+	z-index: 3;
+	overflow: visible;
+}
+#selection_on_globe {
+	position: inherit;
+	width: 30%;
+	height: 60%;
+	z-index: 3;
+	overflow: visible;
+
+}
+
+#footer_rim {
+	position: relative;
+	left: 0px;
+	width: 100%;
+	height: 5px;
+	/*margin-bottom: -5px;*/
+	z-index: 5;
+	top: -3.2em;
+	margin_bottom: 100%;
+	/*bottom: -10px;*/
+	border: thin solid rgba(100,100,100,0.5);
+}
+
+#footer {
+}
+</style>
+
+</head>
+
+<body bgcolor="#FFFFFF" class="main_background">
+<div id="superheader">
+	<div id="header_upper_rim" class="shadow"></div>
+	<div id="header" class="header_background"><img src="logo.png" width="202" height="45" alt="EMPaCT"></div>
+	<div id ="header_lower_rim" class="lower_rim_shadow"></div>
+</div>
+<div id="globe_section"><img src="globe.png"  alt="globe" class="globe">
+    <div id="selection_on_globe" class="selection_onGlobe">
+    Meow Meow Meow Meow
+    <br> 
+    Meow Meow</div>
+</div>
+<div id="side_menu" class="side_menu">
+  <ul class="nav nav-tabs nav-stacked">
+		<li><a href="#" class="thisTab"><br>All Projects</a></li>
+		<li><a href="#1" class="thisTab"><br>Concept Notes</a></li>
+		<li><a href="#2" class="thisTab"><br>About Us</a></li>
+		<li><a href="#2" class="thisTab"><br>Forum</a></li>
+		<li><a href="#2" class="thisTab"><br>Messages</a></li>
+		<li><a href="#2" class="thisTab"><br>Manage</a></li>
+		<li><a href="#2" class="thisTab"><br>About Us</a></li>
+	</ul>
+</div>
+<div id="footer" class="footer">My footer
+	<div id="footer_rim" class="lower_rim_shadow"></div>
+</div>
+</body>
+</html>
